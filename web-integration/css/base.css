@@ -1,0 +1,660 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { /* A RETIRER APRES */
+    background: none;
+}
+
+.bg-color {
+    z-index: 0;
+}
+
+.flex, .container {
+    display: flex;
+}
+
+p, a, input, textarea, .button {
+    font-family: 'Khula', sans-serif;
+}
+
+.freepik {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.learn-more {
+    background-color: #f67a37;
+    border-radius: 50px;
+    height: 75px;
+    width: 401px;
+    padding: 1.4rem;
+    text-align: center;
+}
+
+.learn-more a {
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+}
+
+
+/* HEADER */
+.header .flex {
+    justify-content: space-between;
+    margin: 1.9rem 14.8rem 8.71rem 14.9rem;
+}
+
+.header-logo img {
+    height: 40px;
+}
+
+.header-burger img {
+    height: 30px;
+    margin: 0.3rem 1.3rem 0 0;
+}
+
+/* PRESENTATION */
+.presentation-illu {
+    position: absolute;
+    right: 16.1rem;
+    z-index: 1;
+}
+
+.presentation-illu img {
+    height: 828px;
+    width: 1299px;
+    border-radius: 25px;
+}
+
+.presentation-orange {
+    height: 513px;
+    width: 600px;
+    background-color: #f67a37;
+    position: relative;
+    top: 28.7rem;
+    left: 14.8rem;
+    border-radius: 25px;
+}
+
+.presentation-content {
+    height: 578px;
+    width: 945px;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    top: 46.9rem;
+    left: 2rem;
+    border-radius: 25px;
+    padding: 4.2rem 3.2rem;
+}
+
+.presentation-content-title {
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    line-height: 4.1rem;
+    margin-bottom: 1.7rem;
+}
+
+.presentation-content-text {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+}
+
+.presentation-content-commentary {
+    margin-top: 1.6rem;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    letter-spacing: -0.2px;
+}
+
+/* SERVICES */
+.services {
+    margin-top: 57.7rem;
+}
+
+.services-grey {
+    background: #e5e5e5;
+    position: absolute;
+    top: 56rem;
+    height: 1296px;
+    width: 100%;
+}
+
+.services-title {
+    font-size: 3.1rem;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 47.55rem;
+    z-index: 1;
+    position: relative;
+}
+
+.services .container {
+    margin: 6.1rem 16rem 0 14.8rem;
+    gap: 1.4rem;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #ffffff;
+    width: 25%;
+    padding: 2.3rem;
+    text-align: center;
+    z-index: 1;
+}
+
+.card:nth-child(2n) {
+    transform: translateY(23.5%)
+}
+
+.card-title h3 {
+    font-size: 2rem;
+    font-family: 'Khula', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1.7rem;
+    letter-spacing: 2.5px;
+    line-height: 2.2rem;
+}
+
+.card-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.9rem;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f67a37;
+    border-radius: 50%;
+    width: 123px;
+    height: 123px;
+}
+
+.card img {
+    width: 72px;
+}
+
+.card-content {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    margin-bottom: 1.7rem;
+}
+
+.card a {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-decoration: underline #f67a37;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
+}
+
+/* SIMPLICITÉ */
+.simplicite {
+    margin: 19.8rem 0 0 0;
+}
+
+.simplicite-title {
+    font-size: 3.1rem;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 0 3.9rem 40rem;
+}
+
+.simplicite .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3.1rem;
+}
+
+.simplicite .grid-item {
+    width: 505px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.simplicite .grid-item:nth-child(odd) {
+    margin: 0 0 0 25.5rem;
+}
+
+.simplicite .grid img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.orange {
+    color: #ffffff;
+    background: #f67a37;
+    padding: 1.3rem;
+}
+
+.simplicite .grid-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+}
+
+.orange .grid-txt {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.simplicite .grid-txt {
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+}
+
+.simplicite .commentary {
+    margin-left: 54.2rem;
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-top: 3.5rem;
+}
+/* ENTREPRISE */
+.entreprise {
+    margin-top: 5.1rem;
+    background: #e5e5e5;
+}
+
+.entreprise-img {
+    height: 568px;
+    width: 568px;
+    position: relative;
+    top: 7.8rem;
+    left: 63rem;
+}
+
+.entreprise-orange {
+    background: #f67a37;
+    height: 181px;
+    width: 181px;
+    border-radius: 50%;
+    position: relative;
+    top: -9rem;
+    left: 42.5rem;
+}
+
+.entreprise-grey {
+    background: #f5f5f5;
+    height: 580px;
+    width: 580px;
+    border-radius: 50%;
+    position: relative;
+    top: -28.1rem;
+    left: 33.6rem;
+    z-index: 0;
+}
+
+.entreprise-img img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.entreprise .container {
+    display: block;
+    margin: 0.8rem 0 0 17.2rem;
+    z-index: 1;
+    position: relative;
+}
+
+.entreprise-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.4rem;
+    line-height: 2.3rem;
+    letter-spacing: 1px;
+    margin-bottom: 4.2rem;
+}
+
+.entreprise-txt {
+    font-family: 'Khula', sans-serif;
+    font-size: 1.6rem;
+    margin-right: 17rem;
+    letter-spacing: 0.4px;
+    line-height: 3.1rem;
+}
+
+.entreprise .commentary p {
+    font-size: 1.5rem;
+    margin-top: 3.6rem;
+    margin-bottom: 3.1rem;
+    letter-spacing: 0.3px;
+}
+/* SPACES */
+.spaces {
+    margin-top: -20.4rem;
+    background: #000000;
+    height: 1780px;
+    color: #ffffff;
+}
+
+.spaces .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3.1rem;
+}
+
+.spaces-img {
+    margin: 7rem 0 0 17.2rem;
+}
+
+.spaces-title {
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    margin: 14rem 20rem 0 -4.3rem;
+    line-height: 4.15rem;
+}
+
+.spaces-txt {
+    margin: 3.5rem 18rem 2.4rem -4.3rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    line-height: 2.45rem;
+}
+
+.spaces .commentary {
+    margin: 0 0 2.9rem -4.3rem;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.spaces .learn-more {
+    margin-left: -4.3rem;
+}
+/* OFFER */
+.offer-img {
+    margin: -26.9rem 0 0 14.8rem;
+    height: 755px;
+    width: 1345px;
+}
+
+.offer-img img {
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.offer-content-white {
+    height: 460px;
+    width: 460px;
+    position: relative;
+    top: 14.2rem;
+    left: 14.8rem;
+}
+
+.offer-title {
+    font-size: 1.6rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 2.2rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 1.7rem;
+}
+
+.offer-txt {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.1rem;
+}
+
+.offer .commentary {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 2.3rem;
+}
+
+.offer-content-orange {
+    background: #f67a37;
+    color: #ffffff;
+    height: 760px;
+    width: 760px;
+    position: relative;
+    top: -37.6rem;
+    left: 56.3rem;
+    border-radius: 25px;
+    padding: 2.4rem;
+}
+
+.offer-content-orange img {
+    border-radius: 50%;
+    height: 248px;
+}
+
+.offer-content-orange-txt {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 1.8rem 0;
+    letter-spacing: 2px;
+}
+
+.offer-content-orange-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 4.1rem;
+}
+/* TESTIMONY */
+.testimony-little-img img {
+    border: 10px solid #f67a37;
+    height: 223px;
+    width: 227px;
+    border-radius: 50%;
+}
+
+.testimony-little-img {
+    position: relative;
+    top: -11.1rem;
+    left: 22.8rem;
+}
+
+.testimony-big-img img {
+    height: 825px;
+    border-radius: 50%;
+}
+
+.testimony-big-img {
+    position: relative;
+    top: -15.6rem;
+    left: 38rem;
+}
+
+.testimony-orange {
+    background: #f67a37;
+    height: 435px;
+    width: 712px;
+    position: relative;
+    top: 5.3rem;
+    right: 45.2rem;
+    border-radius: 60px;
+    color: #ffffff;
+}
+
+.testimony-orange-logo {
+    width: 80px;
+    height: 60px;
+    margin: 2.3rem 0 0 2.3rem;
+    filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(277deg) brightness(98%) contrast(101%);
+}
+
+.testimony .txt {
+    margin: 3.1rem 2.3rem 0 2.3rem;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+
+.testimony .commentary {
+    margin: 1.4rem 0 0 2.3rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.2px;
+}
+/* CONTACT */
+.contact {
+    margin: -10.6rem 0;
+}
+
+.contact-img {
+    object-fit: cover;
+    width: 100%;
+    height: 933px;
+}
+
+.contact-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.contact .container {
+    height: 746px;
+    width: 1200px;
+    position: relative;
+    top: -52.4rem;
+    left: 22.1rem;
+}
+
+.contact-left {
+    width: 54.7%;
+    background: #ffffff;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.contact-left-title {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.9rem;
+    margin: 1.9rem 0 0 10.3rem;
+    letter-spacing: -0.2px;
+    color: #f67a37;
+}
+
+.contact-left-form {
+    margin: 2.1rem 0 0 1.9rem;
+    font-size: 1.3rem;
+}
+
+.contact-right {
+    background: #f67a37;
+    width: 45.3%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact-left-form input, textarea {
+    width: 590px;
+    font-size: 1.3rem;
+    padding: 0.5rem 0.8rem;
+    letter-spacing: 0.3px;
+}
+
+.contact-right .title {
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.contact-right .txt {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 4.25rem;
+}
+
+.contact-right-call {
+    margin-top: 3.8rem;
+}
+
+.contact-right-services .txt {
+    margin-top: 1.9rem;
+    font-size: 1.35rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+}
+
+.contact-right .commentary {
+    font-style: italic;
+    margin-top: -2.5rem;
+    font-size: 1.2rem;
+}
+
+.terms {
+    color: #f67a37;
+}
+
+.contact button {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b4b4b4;
+    border-radius: 2px;
+}
+
+.contact .soumettre {
+    background: #f67a37;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    width: 220px;
+    height: 60px;
+    border-radius: 25px 15px 15px 25px;
+    padding-top: 0.9rem;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.form-input {
+    border: none;
+    border-bottom: #f67a37 2px solid;
+}
+
+.contact input {
+    margin-bottom: 1.5rem;
+}
+
+textarea {
+    height: 170px;
+    margin-bottom: 1rem;
+}
+/* FOOTER */
+.footer {
+    margin-top: -46.6rem;
+    background: #333333;
+    height: 330px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.footer-txt {
+    padding: 4rem 45rem 0 43rem;
+    letter-spacing: 0.2px;
+}
+
+.footer-commentary {
+    padding: 6.5rem 0 0 0;
+    font-size: 1.15rem;
+}
+
+.footer a {
+    color: #f67a37;
+    text-decoration: #f67a37 underline 1px;
+}
